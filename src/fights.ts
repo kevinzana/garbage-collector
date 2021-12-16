@@ -95,7 +95,6 @@ import {
   logMessage,
   ltbRun,
   mapMonster,
-  postCombatActions,
   propertyManager,
   questStep,
   safeRestore,
@@ -120,6 +119,7 @@ import {
 import { canAdv } from "canadv.ash";
 import { determineDraggableZoneAndEnsureAccess, draggableFight } from "./wanderer";
 import { crateStrategy, doingExtrovermectin, saberCrateIfDesired } from "./extrovermectin";
+import { postCombatActions } from "./post";
 
 const firstChainMacro = () =>
   Macro.if_(
